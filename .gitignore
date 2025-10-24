@@ -1,0 +1,31 @@
+# dependencias
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# builds
+dist/
+out/
+*.tsbuildinfo
+
+# env
+.env
+.env.*.local
+.env.local
+
+# Prisma
+.prisma/
+prisma/dev.db*
+prisma/migrations/*/steps.json
+
+# Mac / OS
+.DS_Store
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
